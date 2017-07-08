@@ -10,6 +10,7 @@ zoom:1.0;
 website{
 height:100%;
 width:100%;
+padding:0;
 }
 
 
@@ -19,6 +20,7 @@ width:100%;
 body{
 height:100%;
 width:100%;
+padding:0;
 
 }
 
@@ -31,6 +33,7 @@ width:100%;
 
 body{
     background-color:whitesmoke;
+    padding:0;
 }
 
 h1{
@@ -313,41 +316,32 @@ margin-left:96px;
 margin-left:52px;
 }
 
-#fatoresmodo{
+#tabelamet{
+margin:auto;
 text-align:center;
-margin:1.5% auto;
-width:41%;
-}
 
-#afastadosoun{
-text-align:center;
-margin:1.5% auto;
-width:30%;
 }
 
 
-#cabosdentrotubos{
+.WTF{
 text-align:center;
-margin:1.5% auto;
-width:41%;
 }
 
-#disposicao{
-text-align:center;
-margin:1.5% auto;
-width:41%;
-}
 
-#vertouhor{
-text-align:center;
-margin:1.5% auto;
-width:25%;
-}
 
 #lel{
+
+min-width:200px;
+width:100%;
 text-align:center;
 height:5%;
+border:1px dashed azure;
+margin:auto;
+outline: none;
+border-color: whitesmoke;
+box-shadow: 0 0 10px whitesmoke;
 }
+
 
 #mono{
 width:100%;

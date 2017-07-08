@@ -320,6 +320,10 @@ tipo_cabo_mono.checked=false;
 tipo_cabo_multi.checked=false;
 }
 
+
+
+
+
 //Mudança de Ecras de Secção
 
 var tabela_tambem_aumentar = document.getElementById("tabela8");
@@ -9029,9 +9033,4 @@ else{
 texto_rolldown.style.display='none';
 keeptrack=false;
 }
-
-
-
-
-
 }

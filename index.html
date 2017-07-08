@@ -197,10 +197,8 @@
                         </tr>
                         </table>
 
-
-
-                        <table id="fatoresmodo" hidden >
-                        <tr>
+                        <table id="tabelamet">
+                        <tr class="WTF" id="fatoresmodo" hidden >
                         <td id="lel">
                         <span>Cabos Monocondutores&nbsp;</span><input type="radio" name="tipo_cabo" id="mono">
                         </td>
@@ -208,18 +206,31 @@
                         <span>Cabos Multicondutores&nbsp;</span><input type="radio" name="tipo_cabo" id="multi">
                         </td>
                         </tr>
-                        </table>
 
-
-
-
-                        <table id="disposicao"  hidden> 
-                        <tr>
+                        <tr class="WTF" id="disposicao" hidden> 
                         <td id="lel">
-                        <br><span>Condutores em Triângulo&nbsp;</span><input type="radio" name="dispo" id="triangulo">
+                        <span>Condutores em Triângulo&nbsp;</span><input type="radio" name="dispo" id="triangulo">
                         </td>
                         <td id="lel">
-                        <br><span>Condutores em Esteira&nbsp;</span><input type="radio" name="dispo" id="esteira">
+                        <span>Condutores em Esteira&nbsp;</span><input type="radio" name="dispo" id="esteira">
+                        </td>
+                        </tr>
+
+                        <tr class="WTF" id= "afastadosoun" hidden>
+                        <td id="lel">
+                        <span>Sem afastamento&nbsp;</span><input type="radio" name="afas" id="naoafastados">
+                        </td>
+                        <td id="lel">
+                        <span>Com afastamento&nbsp;</span><input type="radio" name="afas" id="afastados">
+                        </td>
+                        </tr>
+
+                        <tr class="WTF" id="vertouhor" hidden>
+                        <td id="lel">
+                        <span>Instalação Vertical&nbsp;</span><input type="radio" name="vert" id="vertical">
+                        </td>
+                        <td id="lel">
+                        <span>Instalação Horizontal&nbsp;</span><input type="radio" name="vert" id="horizontal">
                         </td>
                         </tr>
                         </table>
@@ -227,28 +238,6 @@
 
 
 
-                        <table id= "afastadosoun"  hidden>
-                        <tr>
-                        <td id="lel">
-                        <br><span>Sem afastamento&nbsp;</span><input type="radio" name="afas" id="naoafastados">
-                        </td>
-                        <td id="lel">
-                        <br><span>Com afastamento&nbsp;</span><input type="radio" name="afas" id="afastados">
-                        </td>
-                        </tr>
-                        </table>
-
-                        <table id="vertouhor"  hidden>
-                        <tr>
-                        <td id="lel">
-                        <br><span>Instalação Vertical&nbsp;</span><input type="radio" name="vert" id="vertical">
-                        </td>
-                        <td id="lel">
-                        <br><span>Instalação Horizontal&nbsp;</span><input type="radio" name="vert" id="horizontal">
-                        </td>
-                        </tr>
-                        </table>
-        
                         </div>
                         </td>
 
@@ -382,5 +371,7 @@
 </div>
 
     <script src="logic.js"></script>
+
+
     </body>
 </html>
