@@ -14,38 +14,13 @@ padding:0;
 }
 
 
-@media screen and (max-width: 481px){
-
-
-
-
-
-body{
-height:100%;
-width:100%;
-padding:0;
-
-}
-
-#website{
-height:100%;
-width:100%;
-padding:0;
-}
-
-
-
-}
-
-
-
-
 body{
     background-color:whitesmoke;
     padding:0;
 }
 
 h1{
+   min-width: 550px;
    text-shadow: 0.25px 0.25px whitesmoke;
    margin: auto; 
    height:5%;
@@ -54,10 +29,8 @@ h1{
    font-weight: bold;
    font-family: Calibri;
    text-align: center;
-   font-size-adjust: auto;
    font-size:170%;
    color:white;
-   min-width:500px;
 }
 
 
@@ -72,29 +45,52 @@ span{
 }
 
 #table1{
+    display: flex;
+    flex-direction:row;
     width: 95%;
     margin: auto;
     text-align: center;
     margin-top:0.5%;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 #table2{
+    display: flex;
+    flex-direction: row;
     width: 95%;
     margin: auto;
-     text-align: center;
+    text-align: center;
+    margin-top:0.5%;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
 }
 
 #table3{
-    width:90%;
-    margin:auto;
-     text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top:0.5%;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 
+
+
+
 #tabela1{
-min-width:240px;
+
+margin:auto;
+min-width:245px;
 height:100%;
-width: 85%;
+width: 20%;
 border: 2px solid black;
 background-color: white;
 
@@ -124,70 +120,75 @@ width:80%;
 
 
 #tabela1-5{
-
+margin:auto;
 min-width:150px;
 height:100%;
-width: 85%;
+width: 20%;
 border: 2px solid black;
 background-color: white;
 }
 
 #tabela2{
+margin:auto;
 min-width:85px;
 height:100%;
-width: 85%;
+width: 20%;
 border: 2px solid black;
 background-color: white;
 
 }
 
 #tabela3{
+margin:auto;
 min-width:95px;
 height:100%;
-width: 85%;
+width: 20%;
 border: 2px solid black;
 background-color: white;
-
 }
 
 #tabela4{
+min-width: 780px;
+margin:auto;
 height:100%;
-width: 100%;
+width: 70%;
 border: 2px solid black;
 background-color: white;
 text-align:left;
 }
 
 #tabela5{
+margin:auto;
 min-width:255px;
 height:100%;
-width: 95%;
-margin-left: 5%;
+width: 20%;
 border: 2px solid black;
 background-color: white;
 }
 
 #tabela6{
+margin:auto;
 min-width:450px;
 height:30%;
-width: 100%;
+width: 50%;
 border: 2px solid black;
 background-color: white;
 
 }
 
 #tabela7{
-margin:auto;
+margin: auto;
 text-align: center;
 height:15%;
 min-width:200px;
-width:100%;
+width:20%;
 }
 
 #tabela8{
+margin: auto;
 min-width:280px;
 height:30%;
-width: 100%;
+width: 25%;
 border: 2px solid black;
 background-color: white;
 }
@@ -243,7 +244,7 @@ margin-left:2%;
  height:100px;
  width:80%;
  text-align: center;
- font-family: Arial;
+ font-family: Calibri;
  border-radius: 10%;
  font-size: 110%;
  font-weight:bold;
@@ -477,7 +478,7 @@ font-weight:bold;
 font-size: 80%;
 border-radius:10%;
 margin-left:5.5%;
-margin-top:0.001%;
+margin-top:0.06%;
 background-color: white;
 border: 2px solid darkblue;
 color: darkblue;
@@ -534,4 +535,47 @@ margin-bottom:-5%;
 width:50%;
 text-align: right;
 min-width:250px;
+}
+
+@media(max-width:750px){
+
+#table1{
+flex-direction: column;
+}
+#tabela1-5{
+margin-top:0.5%;
+}
+#tabela2{
+margin-top:0.5%;
+}
+#tabela3{
+margin-top:0.5%;
+}
+
+}
+
+@media(max-width:1050px){
+
+#table2{
+flex-direction: column;
+}
+#tabela5{
+margin-top:0.5%;
+}
+
+}
+
+@media(max-width:1055px){
+
+#table3{
+flex-direction: column;
+
+}
+#tabela7{
+margin-top:0.5%;
+}
+#tabela8{
+margin-top:0.5%;
+}
+
 }
